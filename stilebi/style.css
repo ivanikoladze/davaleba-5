@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+/* es aris hederi */
+header{
+    width: 100%;
+    height: 94px;
+    background-color: #000;
+    padding-left: 332px;
+    position: relative;
+}
+header .note{
+    width: 70px;
+    height: 70px;
+    background-image: url(../suratebi/music-note.png);
+    overflow: hidden;
+    background-size: 100%;
+    position: absolute;
+    left: 100px;
+    top: 12px;
+}
+header nav li{
+    color: #fff;
+    float: left;
+    padding-left: 5px;
+    margin-top: 37px;
+    /* margin-left: 332px; */
+}
+
+
+main{
+    padding-left: 110px;
+}
+h2{margin-top: 50px;
+    margin-bottom: 50px;
+    clear: left;}
+
+article div.trak{
+    width: 300px;
+    height: 244px;
+    border: solid black;
+    position: relative;
+    padding-left: 7px;
+}
+article div.like{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: -3px;
+    right: 0;
+    background-image: url(../suratebi/like.png);
+    background-size: 100%;
+    overflow: hidden;
+}
+article div.sound{
+    width: 260px;
+    height: 65px;
+    background-image: url(../suratebi/sound.png);
+    background-size: 25%;
+    background-repeat: repeat-x;
+    margin-left: 6px;
+    margin-top: 56px;
+    margin-bottom: 22px;
+}
+
+article{
+    float: left;
+    margin-right: 138px;
+    margin-bottom: 22px;
+}
+
+.latest{
+    margin-bottom: 50px;
+}
+.hits{
+    margin-bottom: 22px;
+}
+
+.social{
+    width: 50px;
+    height: 100px;
+    position: fixed;
+    top: 120px;
+    right: 0;
+    /* background-color: #000; */
+}
+.social .fb{
+    background-image: url(../suratebi/fb.png);
+}
+.social .inst{
+    background-image: url(../suratebi/instagram.png);
+}
+.social .fb, .social .inst {
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+    background-size: 100%;
+}
+/* .social .fb a, .social .insta a{
+    display: block;
+    width: 100%;
+    height: 100%;
+} */
+
+
+/* aqedan iwyeba futeri */
+
+footer{
+    clear: both;
+    width: 100%;
+    height: 354px;
+    background-color: #000;
+    padding-top: 26px;
+}
+
+footer .note{
+    width: 150px;
+    height: 150px;
+    background-image: url(../suratebi/music-note.png);
+    overflow: hidden;
+    background-size: 100%;
+    margin: 26px auto;
+}
+footer nav li{
+    color: #fff;
+    text-align: center;
+}
+
+footer .rights{
+    text-align: center;
+    color: #fff;
+    margin-top: 50px;
+}
+
+/* aqedan iwyeba meore gverdi */
+
+.playlist{
+    width: 280px;
+    height: 360px;
+    float: left;
+    margin-right: 157px;
+    margin-bottom: 48px;
+}
+.playlist li{
+    padding-bottom: 8px;
+}
+
+.sound_playlist{
+    clear: both;
+    width: 260px;
+    height: 65px;
+    background-image: url(../suratebi/sound.png);
+    background-size: 25%;
+    background-repeat: repeat-x;
+    margin-left: 472px;
+}
+.playlist_2{
+    margin-right: 44px;
+    margin-bottom: 138px;
+    margin-left: -10px;
+}
+.playlist_2 li{
+    padding-bottom: 8px;
+}
+.thanks{
+    text-align: center;
+    margin-top: 107px;
+    margin-right: 170px;
+    margin-bottom: 144px;
+}
+
+/* davaleba 6 */
+
+article div.like:hover{
+    background-image: url(../suratebi/like\ 2.png);
+}
+
+.social .fb:hover{
+    background-image: url(../suratebi/facebook_hover.png);
+}
+.social .inst:hover{
+    background-image: url(../suratebi/instagram_hover.png);
+}
